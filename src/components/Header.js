@@ -4,7 +4,7 @@ const NavElement = (props) => {
     return(
         <Link to={props.to}>
             <li className='navElement'>
-                {props.name}
+                {props.name} /
             </li>
         </Link>
     );
@@ -27,7 +27,7 @@ const Nav = () => {
 
 function Header() {
     return (
-          <header className=''>
+          <header className='container'>
               <div className='columns is-vcentered'>
                 <div className='column is-one-third'>
                     <img className='logo' alt='logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logo_TV_2015.png/200px-Logo_TV_2015.png'/>

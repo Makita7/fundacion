@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 /* COMPONENTS */
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 /* STYLES */
 import './App.css';
@@ -21,7 +22,7 @@ import Error from './pages/Error';
 
 function App() {
   return (
-    <div className="container pt-6">
+    <div className="pt-5">
       <Router>
 
         <Header />
@@ -45,6 +46,8 @@ function App() {
           <Route path='/error' element={<Error/>} />
 
         </Routes>
+
+        <Footer />
 
       </Router>
     </div>

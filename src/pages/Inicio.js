@@ -2,7 +2,7 @@
 
 function Inicio() {
     return (
-          <div>
+          <div className="container bodyS">
               <h1>Inicio</h1>
           </div>
       );
