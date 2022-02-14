@@ -1,4 +1,5 @@
-
+import { useRef, useEffect} from 'react';
+import { Power3, TweenMax } from 'gsap';
 
 function Inicio() {
     return (

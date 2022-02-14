@@ -6,10 +6,11 @@ import Footer from './components/Footer';
 
 /* STYLES */
 import './App.css';
-import 'bulma/css/bulma.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 /* PAGES */
 import SomosSuyas from './pages/SomosSuyas';
+import NuestrasActividades from './pages/NuestrasActividades';
 import Inicio from './pages/Inicio';
 import QuienSomos from './pages/QuienSomos';
 import Talleres from './pages/Talleres';
@@ -22,7 +23,7 @@ import Error from './pages/Error';
 
 function App() {
   return (
-    <div className="pt-5">
+    <div className="">
       <Router>
 
         <Header />
@@ -32,6 +33,8 @@ function App() {
           <Route path='/' element={<Inicio/>} />
 
           <Route path='/quienessomos' element={<QuienSomos/>} />
+
+          <Route path='/nuestrasactividades' element={<NuestrasActividades/>} />
 
           <Route path='/talleres' element={<Talleres/>} />
 
