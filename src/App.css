@@ -53,8 +53,39 @@ header a{
     min-height: 10rem;
 }
 
+h3{
+    font-size: 1.75rem;
+    color: #456043;
+}
+
+.padTop{
+    padding-top: 1rem;
+}
+
+.padBot{
+    padding-top: 1rem;
+}
+
+.quienSomos{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    font-size: 0.75em;
+}
+
+/* ACTIVITIES */
+.activities img{
+    width: 100%;
+    float: right;
+}
 
 
+.moreInfo{
+    max-width: 6rem;
+    justify-self: end;
+}
 
 
 /* FOOTER */
