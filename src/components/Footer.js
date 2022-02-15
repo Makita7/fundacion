@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 import { FaTwitter, FaInstagram, FaYoutube, FaWhatsapp } from 'react-icons/fa';
 import Logo from '../img/logo.png';
 import Donate from '../img/donate.png';
@@ -27,11 +28,15 @@ function Footer() {
                 <div className="row align-middle">
 
                     <div className="col right">
-                        <img className='donate' alt='donate button' src={Donate}/>
+                        <Link to='/donaciones'>
+                            <img className='donate' alt='donate button' src={Donate}/>
+                        </Link>
                     </div>
                     
                     <div className="col-2 text-center">
-                    <img className='logoFooter' alt='logo' src={Logo}/>
+                        <Link to='/'>
+                            <img className='logoFooter' alt='logo' src={Logo}/>
+                        </Link>
                     </div>
 
                     <div className="col">

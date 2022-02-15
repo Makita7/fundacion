@@ -31,7 +31,9 @@ function Header() {
                 </div>
 
                 <div className='column'>
-                    <img className='logo' alt='logo' src={Logo}/>
+                    <Link className='logo'  to='/'>
+                        <img className='logo' alt='logo' src={Logo}/>
+                    </Link>
                 </div>
 
           </header>
