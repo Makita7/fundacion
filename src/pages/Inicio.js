@@ -3,7 +3,7 @@ import { Power3, TweenMax } from 'gsap';
 
 function Inicio() {
     return (
-          <div className="container bodyS">
+          <div className="container main">
               <h1>Inicio</h1>
           </div>
       );

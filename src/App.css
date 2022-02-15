@@ -46,3 +46,45 @@ header a{
 }
 
 /* MAIN */
+.main{
+    min-height: 20rem;
+}
+
+/* FOOTER */
+
+.socialmedia{
+    display: flex;
+}
+
+.socialmedia li{
+    list-style: none;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+}
+
+.socialmedia a{
+    color: #E18D01;
+}
+
+.logoFooter{
+    max-width: 4rem;
+    align-self: center;
+}
+
+ul{
+    padding-left: 0!important;
+}
+
+.col-2{
+    flex: 0 0 auto;
+    width: 11%!important;
+}
+
+.right{
+    text-align: right;
+}
+
+.donate{
+    max-width: 5rem;
+    margin-top: 1rem;
+}
