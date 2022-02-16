@@ -15,8 +15,8 @@ const Nav = () => {
     return(
         <ul className='flexH'>
             <NavElement to="/" name="Inicio" />
-            <NavElement to="/quienessomos" name="Quienes Somos" />
             <NavElement to="/nuestrasactividades" name="Nuestras Actividades" />
+            {/* <NavElement to="/noticias" name="Noticias" /> */}
             <NavElement to="/donaciones" name="Donaciones" />
         </ul>
     );

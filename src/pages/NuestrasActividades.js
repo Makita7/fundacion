@@ -39,11 +39,11 @@ function NuestrasActividades() {
             actividad='A tu Alcance'
             img={require('../img/activities.png')}
             descripcion='Minim laboris ex do irure amet nulla laboris non. Amet consectetur aute eu nulla aliquip ad. Amet sunt excepteur nostrud tempor mollit laboris. Anim commodo officia excepteur laboris do ea. Minim enim cupidatat ea deserunt mollit exercitation elit quis. Nulla adipisicing tempor laborum enim eu enim.'
-            to='/talleres'
+            to='/atualcance'
           />
 
           <Actividad
-            actividad='Escuela'
+            actividad='Escuela: Mauricio Lopez'
             img={require('../img/activities.png')}
             descripcion='Minim laboris ex do irure amet nulla laboris non. Amet consectetur aute eu nulla aliquip ad. Amet sunt excepteur nostrud tempor mollit laboris. Anim commodo officia excepteur laboris do ea. Minim enim cupidatat ea deserunt mollit exercitation elit quis. Nulla adipisicing tempor laborum enim eu enim.'
             to='/escuela'

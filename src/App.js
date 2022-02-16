@@ -12,11 +12,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import SomosSuyas from './pages/SomosSuyas';
 import NuestrasActividades from './pages/NuestrasActividades';
 import Inicio from './pages/Inicio';
-import QuienSomos from './pages/QuienSomos';
 import Talleres from './pages/Talleres';
 import Escuelas from './pages/Escuela';
 import MejorEsDar from './pages/MejorEsDar';
 import Donaciones from './pages/Donaciones';
+import Noticias from './pages/Noticias';
 import Error from './pages/Error';
 
 
@@ -32,11 +32,9 @@ function App() {
 
           <Route path='/' element={<Inicio/>} />
 
-          <Route path='/quienessomos' element={<QuienSomos/>} />
-
           <Route path='/nuestrasactividades' element={<NuestrasActividades/>} />
 
-          <Route path='/talleres' element={<Talleres/>} />
+          <Route path='/atualcance' element={<Talleres/>} />
 
           <Route path='/escuela' element={<Escuelas/>} />
 
@@ -45,6 +43,8 @@ function App() {
           <Route path='/mejoresdar' element={<MejorEsDar/>} />
 
           <Route path='/donaciones' element={<Donaciones/>} />
+          
+          <Route path='/noticias' element={<Noticias/>} />
 
           <Route path='/error' element={<Error/>} />
 
