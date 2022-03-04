@@ -9,16 +9,13 @@ body{
 /* HEADER */
 
 header{
-    min-height: 11rem;
+    height: 7rem;
 }
 
 .logo{
     height: auto;
-    max-width: 9rem;
-    transform: translateX(-50%);
-    left: 50%;
-    top: 1rem;
-    position: absolute;
+    max-width: 8rem;
+    margin-top: -0.5rem;
 }
 
 
@@ -28,6 +25,7 @@ header{
     text-decoration: none;
     color: #E18D01;
     font-weight: 400;
+    padding-top: 1rem;
 }
 
 header a{
@@ -45,12 +43,16 @@ header a{
     justify-content: center;
 }
 
+.colormargin{
+    background-color: #456043;
+    height: 0.8rem;
+}
 
 
 
 /* MAIN */
 .main{
-    min-height: 26rem!important;
+    min-height: 10rem!important;
 }
 
 h3{
@@ -67,7 +69,7 @@ h3{
 }
 
 .quienSomos{
-    width: 100%;
+    width: 95%;
 }
 
 p{
@@ -81,10 +83,29 @@ p{
     float: right;
 }
 
+.activityW{
+    padding-left: 20%!important;
+    width: 80%!important;
+    margin-left: 0%!important;
+}
 
 .moreInfo{
-    max-width: 6rem;
+    max-width: 7rem;
     justify-self: end;
+}
+
+.activityImg{  
+    opacity: 1;
+    transition: 1s;
+}
+
+.activityImg:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.allCaps{
+    text-transform: uppercase;
 }
 
 /* SOMOS SUYAS */
@@ -107,6 +128,27 @@ p{
     font-size: 1rem;
     color: black;
     font-weight: 400;
+}
+
+.center{
+    margin-left: 20rem!important;
+}
+
+/* DONATIONS */
+.backgroundDonation{
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.backgroundDonationTwo{
+    min-height: 20rem;
+    background-color: black;
+    color: white;
+}
+
+.donMargin{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 /* FOOTER */

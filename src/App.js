@@ -28,6 +28,8 @@ function App() {
 
         <Header />
 
+        <div className='colormargin'></div>
+
         <Routes>
 
           <Route path='/' element={<Inicio/>} />
