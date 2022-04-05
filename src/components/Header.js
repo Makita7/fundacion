@@ -13,11 +13,10 @@ const Nav = () => {
     }
 
     return(
-        <ul className='flexH'>
+        <ul className='flexH right padR'>
             <NavElement to="/" name="Inicio" />
             <NavElement to="/nuestrasactividades" name="Nuestras Actividades" />
-            <NavElement to="/noticias" name="Noticias" /> 
-            <NavElement to="/donaciones" name="Donaciones" />
+            <NavElement to="/contactos" name="Contactos" />
         </ul>
     );
 }
@@ -26,13 +25,13 @@ const Nav = () => {
 function Header() {
     return (
           <header className='flexH'>
-                <div className="column">
+                <div className="col-3 padL">
                     <Link className='logo'  to='/'>
                         <img className='logo' alt='logo' src={Logo}/>
                     </Link>
                 </div>
 
-                <div className='column  padTop'>
+                <div className='col-9  padTop'>
                     <Nav/>
                 </div>
 

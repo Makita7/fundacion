@@ -7,9 +7,9 @@ function Inicio() {
               {/* make an alternative image that is only viewed in mobile and hide this one so it is only visible for tablet and pc */}
               <img alt='banner' className='img-fluid' src={require('../img/bannerColegio.png')}/>
               
-              <div className='container padTop center'>
-                <div className='row'>
-                    <div className='col-4'>
+              <div className='padTop center'>
+                <div className='row padTop'>
+                    <div className='col-6'>
                         <h3>Quien Somos</h3>
                         <p className='quienText'>Laboris sint laboris Lorem et elit occaecat ut veniam aliqua non. Ullamco ullamco ea labore in. Sit non quis minim pariatur sint.
 
@@ -20,12 +20,12 @@ function Inicio() {
                     </div>
                     
                     <div className='col-4'>
-                        <img alt='quien somos' className='quienSomos' src={require('../img/logo.png')} />
+                        <img alt='quien somos' className='quienSomos' src={require('../img/quienSomos.png')} />
                     </div>
                 </div>
               </div>
-            <Donation/>
             <NuestrasActividades/>
+            <Donation/>
           </div>
       );
   }

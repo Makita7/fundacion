@@ -25,7 +25,7 @@ function Actividad(props) {
 
 function NuestrasActividades() {
   return (
-      <div className='container padTop activities padBot activityW'>
+      <div className='padTop activities padBot activityW'>
           <h3 className='text-center allCaps'>Nuestras Actividades</h3>
 
           <Actividad

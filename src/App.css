@@ -50,6 +50,7 @@ header a{
 
 
 
+
 /* MAIN */
 .main{
     min-height: 10rem!important;
@@ -70,27 +71,38 @@ h3{
 
 .quienSomos{
     width: 95%;
+    border-radius: 100px;
 }
 
 p{
     text-align: justify;
-    font-size: 0.75em;
+    font-size: 1em;
+}
+
+.padR{
+    padding-right: 2rem;
+}
+
+.padL{
+    padding-left: 2rem;
 }
 
 /* ACTIVITIES */
 .activities img{
     width: 100%;
     float: right;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .activityW{
-    padding-left: 20%!important;
+    padding-left: 18%!important;
     width: 80%!important;
     margin-left: 0%!important;
 }
 
 .moreInfo{
-    max-width: 7rem;
+    max-width: 8.5rem;
     justify-self: end;
 }
 
@@ -124,14 +136,21 @@ p{
 }
 
 .masinfoh5{
-    text-align: center;
     font-size: 1rem;
     color: black;
     font-weight: 400;
 }
 
 .center{
-    margin-left: 20rem!important;
+    margin-left: 19rem!important;
+}
+
+.text-right{
+    text-align: right!important;
+}
+
+.text-left{
+    text-align: left!important;
 }
 
 /* DONATIONS */
@@ -142,14 +161,52 @@ p{
 
 .backgroundDonationTwo{
     min-height: 20rem;
-    background-color: black;
+    background-color: #669141;
     color: white;
 }
 
 .donMargin{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+.pagesBanner{
+    border-radius: 25px 25px 0 0;
+}
+
+.spaceB{
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+}
+
+.donatebox{
+    height: auto;
+    max-width: 240px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.list{
+    list-style: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: #b7ff77;
+    font-weight: 400;
+}
+
+.list a:hover{
+    color: #112400;
+}
+
+/* A TU ALCANCE- TALLERES */
+
+.justify{
+    text-align: justify;
+}
+
+
 
 /* FOOTER */
 
@@ -184,6 +241,7 @@ ul{
 
 .right{
     text-align: right;
+    justify-content: right;
 }
 
 .donate{

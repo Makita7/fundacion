@@ -1,4 +1,28 @@
 
+function Taller(){
+    return(
+        <div className='container padTop subpages padBot main'>
+            <h3 className="subpagesh3 padTop">Próximo Taller</h3>
+            <div className='row'>
+                <div className='col'>
+                    <h5 className='masinfoh5 text-right'>Nombre del Taller:</h5>
+                    <h5 className='masinfoh5 text-right'>Fecha:</h5>
+                    <h5 className='masinfoh5 text-right'>Dirección:</h5>
+                    <h5 className='masinfoh5 text-right'>Inscripción:</h5>
+                    <h5 className='masinfoh5 text-right'>Descripción:</h5>
+                </div>
+
+                <div className='col text-left'>
+                    <h5 className='masinfoh5'>Nutricion</h5>
+                    <h5 className='masinfoh5'>12 de Marzo 2022</h5>
+                    <h5 className='masinfoh5'>KATO Café</h5>
+                    <h5 className='masinfoh5'>link a form o evenbrite</h5>
+                    <h5 className='masinfoh5 justify'>Cillum cupidatat est id excepteur. Adipisicing id commodo in id incididunt dolor sint in excepteur sunt labore. Enim id veniam irure nostrud amet eiusmod do aliqua laboris. Occaecat ad amet Lorem commodo. Ex labore elit sunt labore officia cupidatat laborum deserunt veniam proident ex. Minim exercitation aliqua nostrud nulla id exercitation commodo cupidatat Lorem id elit nulla incididunt.</h5>
+                </div>
+            </div>
+        </div>
+    );
+}
 
 function Talleres() {
     return (
@@ -20,6 +44,7 @@ function Talleres() {
                 </div>
             </div>
             {/* Poner el proximo taller  y el link al formulario para poder inscribirse */}
+            <Taller/>
         </div>
       );
   }

@@ -15,8 +15,7 @@ import Inicio from './pages/Inicio';
 import Talleres from './pages/Talleres';
 import Escuelas from './pages/Escuela';
 import MejorEsDar from './pages/MejorEsDar';
-import Donaciones from './pages/Donaciones';
-import Noticias from './pages/Noticias';
+import Contacto from './pages/Contacto';
 import Error from './pages/Error';
 
 
@@ -44,9 +43,7 @@ function App() {
 
           <Route path='/mejoresdar' element={<MejorEsDar/>} />
 
-          <Route path='/donaciones' element={<Donaciones/>} />
-          
-          <Route path='/noticias' element={<Noticias/>} />
+          <Route path='/contactos' element={<Contacto/>} />
 
           <Route path='/error' element={<Error/>} />
 
