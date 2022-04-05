@@ -1,3 +1,4 @@
+import Material from '../components/Material';
 
 function Taller(){
     return(
@@ -45,6 +46,18 @@ function Talleres() {
             </div>
             {/* Poner el proximo taller  y el link al formulario para poder inscribirse */}
             <Taller/>
+
+            <Material
+                title="Nombre Taller"
+                description="Commodo fugiat do pariatur esse enim tempor voluptate ad occaecat magna proident tempor est laboris. Dolor irure eiusmod anim sunt. Mollit incididunt reprehenderit Lorem excepteur ullamco ullamco proident ea sit consequat velit. Id laboris et do proident mollit adipisicing do laborum commodo eu sint."
+                link="https://www.youtube.com/"
+                />
+
+            <Material
+                title="Nombre Taller2"
+                description="Commodo fugiat do pariatur esse enim tempor voluptate ad occaecat magna proident tempor est laboris. Dolor irure eiusmod anim sunt. Mollit incididunt reprehenderit Lorem excepteur ullamco ullamco proident ea sit consequat velit. Id laboris et do proident mollit adipisicing do laborum commodo eu sint."
+                link="https://www.youtube.com/"
+                />
         </div>
       );
   }

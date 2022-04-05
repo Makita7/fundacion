@@ -87,6 +87,14 @@ p{
     padding-left: 2rem;
 }
 
+.centernone{
+    margin-left: 0% !important;
+}
+
+.justify{
+    text-align: justify;
+}
+
 /* ACTIVITIES */
 .activities img{
     width: 100%;
@@ -247,4 +255,25 @@ ul{
 .donate{
     max-width: 5rem;
     margin-top: 1rem;
+}
+
+/* MATERIAL */
+
+.tryVertical{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+
+.materialT{
+    color: #994529;
+}
+
+/* CONTACT US */
+
+.mandar{
+    background-color: #cddfa5 !important;
+}
+
+.mandar:hover{
+    background-color: #e9ffb986 !important;
 }

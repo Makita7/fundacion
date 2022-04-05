@@ -66,7 +66,7 @@ function Form() {
               </div>
             </div>
             <div className="d.flex text-center">
-              <button type="submit" className="send-btn btn  mt-4">
+              <button type="submit" className="send-btn btn  mt-4 mandar">
                 Mandar
               </button>
             </div>

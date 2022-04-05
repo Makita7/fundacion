@@ -1,8 +1,9 @@
+import Material from '../components/Material';
 
 function SomosSuyas() {
   return (
         <div className='container padTop subpages padBot main'>
-            <h3 className="subpagesh3">Somos Suyas</h3>
+            <h3 className="subpagesh3 padTop">Somos Suyas</h3>
             <img alt='banner' className='img-fluid pagesBanner' src={require('../img/bannerSomosSuyas.png')}/>
             <p>Ut culpa qui ut culpa in. Id est officia dolor minim consequat mollit dolor et dolor pariatur. Quis ea consectetur nulla laborum laborum elit non. Voluptate enim culpa esse adipisicing occaecat ipsum consequat sit Lorem deserunt cillum cupidatat. Eiusmod anim pariatur tempor eu exercitation aliquip minim reprehenderit occaecat anim qui. Non est mollit excepteur adipisicing nulla laborum duis consectetur dolore aliquip minim aliquip culpa.</p>
 
@@ -34,6 +35,12 @@ function SomosSuyas() {
                     <h5 className='masinfoh5'>link a form o evenbrite</h5>
                 </div>
             </div>
+
+            <Material
+                title="Somos Suyas: Florecer"
+                description="Commodo fugiat do pariatur esse enim tempor voluptate ad occaecat magna proident tempor est laboris. Dolor irure eiusmod anim sunt. Mollit incididunt reprehenderit Lorem excepteur ullamco ullamco proident ea sit consequat velit. Id laboris et do proident mollit adipisicing do laborum commodo eu sint."
+                link="https://www.youtube.com/"
+            />
         </div>
     );
 }

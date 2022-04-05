@@ -17,6 +17,7 @@ import Escuelas from './pages/Escuela';
 import MejorEsDar from './pages/MejorEsDar';
 import Contacto from './pages/Contacto';
 import Error from './pages/Error';
+import Nosotros from './pages/Nosotros';
 
 
 
@@ -36,6 +37,8 @@ function App() {
           <Route path='/nuestrasactividades' element={<NuestrasActividades/>} />
 
           <Route path='/atualcance' element={<Talleres/>} />
+
+          <Route path='/nosotros' element={<Nosotros/>} />
 
           <Route path='/escuela' element={<Escuelas/>} />
 
